@@ -1,0 +1,16 @@
+<template>
+  <Layout>
+  </Layout>
+</template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Work'
+  }
+}
+</script>
+
+<style lang="sass" scoped>
+
+</style>
