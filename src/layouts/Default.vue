@@ -8,8 +8,12 @@
           <li><g-link to="/work">work</g-link></li>
         </ul>
       </nav>
+      <h1 class="nathan">Nathan's</h1>
+      <h1 class="title">{{ title }}</h1>
     </header>
-    <slot/>
+    <main>
+      <slot/>
+    </main>
   </div>
 </template>
 
@@ -21,17 +25,38 @@ query {
 }
 </static-query>
 
+<script>
+export default {
+  props: {
+    title: String
+  }
+}
+</script>
+
 <style lang="sass" scoped>
 @import '~/styles/_vars'
 
-nav ul
-  flex: 1
-  text-align: right
-  font-family: $title-font
-  font-size: 1.5em
-  margin: 2em 0 0
-  a
-    color: var(--color-text)
-  @media screen and (max-width: 699px)
-    font-size: 1em
+nav
+  margin-bottom: 0
+  ul
+    flex: 1
+    text-align: right
+    font-family: $title-font
+    font-size: 1.5em
+    margin: 2em 0 0
+    a
+      color: var(--color-text)
+    @media screen and (max-width: 699px)
+      font-size: 1em
+
+.nathan
+  text-align: left
+  font-size: 2em
+  margin: 0
+
+.title
+  text-align: left
+  font-size: 4em
+  line-height: 1em
+  margin: 0 0 60px
 </style>

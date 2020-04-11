@@ -1,5 +1,6 @@
 <template>
-  <Layout>
+  <Layout title="Work">
+    
   </Layout>
 </template>
 
