@@ -6,16 +6,14 @@
     </svg>
     <h2 class="full-name">Nathan<br>Yiangsupapaanontr</h2>
     <ul class="main-links">
-      <li>Blog</li>
-      <li>Work</li>
-      <li>Github</li>
-      <li>LinkedIn</li>
+      <li v-for="link in mainLinks" :key="link.name">
+        <a :href="link.url">{{ link.name }}</a>
+      </li>
     </ul>
     <ul class="social-links">
-      <li>500px</li>
-      <li>Instagram</li>
-      <li>Twitter</li>
-      <li>YouTube</li>
+      <li v-for="link in socialLinks" :key="link.name">
+        <a :href="link.url">{{ link.name }}</a>
+      </li>
     </ul>
     <div class="bio">
       <p>
@@ -34,6 +32,22 @@
 export default {
   metaInfo: {
     title: 'Home'
+  },
+  data () {
+    return {
+      mainLinks: [
+        {name: 'Blog', url: 'https://blog.zartre.com'},
+        {name: 'Work', url: ''},
+        {name: 'Github', url: 'https://github.com/DobaKung'},
+        {name: 'LinkedIn', url: 'https://linkedin.com/in/zartre'}
+      ],
+      socialLinks: [
+        {name: '500px', url: 'https://500px.com/zartre'},
+        {name: 'Instagram', url: 'https://instagram.com/zartre'},
+        {name: 'Twitter', url: 'https://twitter.com/zartre'},
+        {name: 'YouTube', url: 'https://youtube.com/user/zartrey'}
+      ]
+    }
   }
 }
 </script>
@@ -62,6 +76,10 @@ export default {
   text-align: center
   font-size: 1.5em
   margin: 50px 0
+
+ul a
+  color: var(--color-text)
+  font-weight: 400
 
 .main-links
   font-size: 2.5em
