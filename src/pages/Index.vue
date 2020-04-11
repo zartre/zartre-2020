@@ -51,6 +51,7 @@ export default {
   margin: 100px 0 50px 0
   @media screen and (max-width: 699px)
     font-size: 9vw
+    margin-top: 50px
 
 #divider
   display: block
