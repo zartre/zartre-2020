@@ -1,27 +1,42 @@
 ---
 title: "KMITL OSRS"
-date: 2019-04-20
+date: 2018-03-01
 slug: kmitl-osrs
-thumbnail: https://via.placeholder.com/400x225
+thumbnail: ./images/kmitl-osrs-hero.png
 period: Mar - Apr 2018
 tags:
 - Website
 - University project
 ---
 
-This is the first post, it is written in Markdown.
+![KMITL OSRS](./images/kmitl-osrs-hero.png)
 
-![Photo](https://zartre.com/img/work/hero/kmitl-osrs-hero-1920.jpg)
+KMITL Online Space Reservation System is a project in Web Programming,
+Information System Analysis and Design and Database Systems classes of 2017
 
-# Here's some big text
+KMITL OSRS is a website that allows KMITL students and staff to request a room reservation online,
+as opposed to writing down on papers.
+This shortens the process by a huge means because this new process is intuitive and fast:
+the user can just find a room, select a time, fill in his reason and it's done.
 
-- and some lists 
-    - just to show off all of the different elements 
+![](./images/home.png)
 
-### How about some code?
+On an approver's part, he can then view all requests in his managing faculty and choose to approve or decline the requests.
 
-``` 
-Yeah we've got that too!
-```
+The main business logic server is powered by Scala, while the view part is managed by NodeJS. Two servers send and receive data via GraphQL.
 
-Inline? ```i think so```
+![](./images/single.jpg)
+
+![](./images/requests.png)
+
+![](./images/approval.png)
+
+**Roles:**
+- Front-end Website Designer
+- Front-end Website Developer
+
+**Technologies:**
+- Scala
+- NodeJS
+- GraphQL
+- PostgreSQL
