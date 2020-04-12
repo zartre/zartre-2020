@@ -33,7 +33,7 @@ _Scroll down for English_
 
 ![](./images/Bronze-Bowl-1.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iLHPzz2jIAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/iLHPzz2jIAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Bronze Bowl is the video used in Kob Junior Year 7 project held by TV Burabha, Thailand.
 The purpose was to present audience with Thailand's 200-year-old handicraft, the bronze bowl.

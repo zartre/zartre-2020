@@ -9,7 +9,7 @@ tags:
 - High school project
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2ivkOxrF3JAgZbmnL4hr4ROn6n8VTbon" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/videoseries?list=PL2ivkOxrF3JAgZbmnL4hr4ROn6n8VTbon" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 These infographics and videos are parts of media used during Assumption Samutprakarn School's Parent Meeting 1/2016.
 They were done in Adobe Illustrator and Adobe After Effects.
