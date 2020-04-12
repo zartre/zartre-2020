@@ -31,7 +31,7 @@ nav
       margin-left: 1em
 @media screen and (max-width: 699px)
   nav
-    margin-bottom: 1em
+    margin-bottom: 2em
     ul
       font-size: 1em
 </style>

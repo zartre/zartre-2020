@@ -8,7 +8,7 @@
     <h2 class="full-name">Nathan<br>Yiangsupapaanontr</h2>
     <ul class="main-links">
       <li v-for="link in mainLinks" :key="link.name">
-        <a :href="link.url">{{ link.name }}</a>
+        <g-link :to="link.url">{{ link.name }}</g-link>
       </li>
     </ul>
     <ul class="social-links">
@@ -19,8 +19,10 @@
     <div class="bio">
       <p>
         Nathan loves to solve problems with code.
-        On some occassions he would go out and log the world with photographs.
-        You could also come across him by his writing on Thai App Update because he loves being a journalist so much.
+        On some occasions he would go out and log the world with photographs.
+        You could also come across him by his writing on
+        <a href="https://thaiappupdate.com" target="_blank">Thai App Update</a>
+        because he loves being a journalist so much.
       </p>
       <svg id="circle" width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="80" cy="80" r="80" fill="#71D4FF"/>
@@ -38,7 +40,7 @@ export default {
     return {
       mainLinks: [
         {name: 'Blog', url: 'https://blog.zartre.com'},
-        {name: 'Work', url: ''},
+        {name: 'Work', url: '/work', internal: true},
         {name: 'Github', url: 'https://github.com/DobaKung'},
         {name: 'LinkedIn', url: 'https://linkedin.com/in/zartre'}
       ],
@@ -55,7 +57,7 @@ export default {
 
 <style scoped lang="sass">
 .steep
-  max-width: 600px
+  max-width: 640px
   margin-left: auto
   margin-right: auto
   padding: 0 20px
