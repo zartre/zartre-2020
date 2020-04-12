@@ -41,7 +41,7 @@ nav
   ul
     flex: 1
     text-align: right
-    font-family: $title-font
+    font-family: $font-title
     font-size: 1.5em
     margin: 2em 0 0
     a

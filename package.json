@@ -7,7 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "flexboxgrid": "^6.3.1",
+    "gridsome": "^0.7.0",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",

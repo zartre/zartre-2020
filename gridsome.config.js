@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: 'Nathan Yiangsupapaanontr',
+  siteUrl: 'https://zartre.com',
   plugins: []
 }

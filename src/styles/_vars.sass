@@ -1,1 +1,34 @@
-$title-font: 'ArticulatCF'
+$color-primary: #246dff
+$color-bg: #fff6ef
+$color-bg-secondary: #fff
+$color-text: #0a0a0a
+$color-text-secondary: #999
+
+$font-title: 'ArticulatCF'
+$font-text: 'Ovo', sans-serif
+
+// Dark mode
+$dark-color-primary: #246dff
+$dark-color-bg: #000000
+$dark-color-bg-secondary: #252525
+$dark-color-text: #f0f0f0
+$dark-color-text-secondary: #919191
+
+// Declare CSS variables
+\:root
+  --color: #{$color-primary}
+  --color-bg: #{$color-bg}
+  --color-bg-secondary: #{$color-bg-secondary}
+  --color-text: #{$color-text}
+  --color-text-secondary: #{$color-text-secondary}
+  --font-title: #{$font-title}
+  --font-text: #{$font-text}
+
+// Declare CSS variables for dark mode
+@media (prefers-color-scheme: dark)
+  \:root
+    --color: #{$dark-color-primary}
+    --color-bg: #{$dark-color-bg}
+    --color-bg-secondary: #{$dark-color-bg-secondary}
+    --color-text: #{$dark-color-text}
+    --color-text-secondary: #{$dark-color-text-secondary}
