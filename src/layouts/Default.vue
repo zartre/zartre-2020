@@ -1,19 +1,22 @@
 <template>
   <div class="layout">
     <header class="header">
-      <nav>
-        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
-        <ul>
-          <li><g-link to="/">home</g-link></li>
-          <li><g-link to="/work">work</g-link></li>
-        </ul>
-      </nav>
-      <h1 class="nathan">Nathan's</h1>
-      <h1 class="title">{{ title }}</h1>
+      <div class="container">
+        <nav>
+          <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
+          <ul>
+            <li><g-link to="/">home</g-link></li>
+            <li><g-link to="/work">work</g-link></li>
+          </ul>
+        </nav>
+        <h1 class="nathan">Nathan's</h1>
+        <h1 class="title">{{ title }}</h1>
+      </div>
     </header>
     <main>
       <slot/>
     </main>
+    <footer></footer>
   </div>
 </template>
 
@@ -59,4 +62,7 @@ nav
   font-size: 4em
   line-height: 1em
   margin: 0 0 60px
+
+footer
+  height: 100px
 </style>
