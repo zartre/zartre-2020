@@ -3,7 +3,7 @@ title: "Bronze Bowl Documentary"
 date: 2015-08-01
 slug: bronze-bowl
 thumbnail: ./images/Bronze-Bowl-1.jpg
-period: Mar - Apr 2019
+period: Aug - Nov 2015
 tags:
 - Video
 - High school project
