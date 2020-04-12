@@ -3,6 +3,7 @@
     <h1 class="title">Bangkok-based Software Developer</h1>
     <svg id="divider" width="1" height="80" viewBox="0 0 1 80" fill="none" xmlns="http://www.w3.org/2000/svg">
       <line x1="0.5" x2="0.5" y2="80" stroke="black"/>
+      <line x1="1" x2="1" y2="80" stroke="white"/>
     </svg>
     <h2 class="full-name">Nathan<br>Yiangsupapaanontr</h2>
     <ul class="main-links">
@@ -76,10 +77,6 @@ export default {
   text-align: center
   font-size: 1.5em
   margin: 50px 0
-
-ul a
-  color: var(--color-text)
-  font-weight: 400
 
 .main-links
   font-size: 2.5em
