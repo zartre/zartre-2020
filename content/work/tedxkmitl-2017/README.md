@@ -25,6 +25,10 @@ running our Python program and that’s it.
 During the event, we also had a monitor which acted as a social board where any guest could post their status updates onto.
 It updated in real-time and, well, supported emojis.
 
+<div class="buttons">
+<a href="https://blog.zartre.com/tedxkmitl2017-1e92f18687de" class="button">Read the story</a>
+</div>
+
 **Roles:**
 - Front-end Website Designer
 - Front-end Website Developer
