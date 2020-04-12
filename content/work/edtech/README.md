@@ -2,7 +2,7 @@
 title: EdTech Logo
 date: 2015-11-01
 slug: edtech
-thumbnail: ./images/edtech-hero.png
+image: ./images/edtech-hero.png
 period: Nov 2015
 tags:
 - Design

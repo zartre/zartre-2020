@@ -2,7 +2,7 @@
 title: "KMITL OSRS"
 date: 2018-03-01
 slug: kmitl-osrs
-thumbnail: ./images/kmitl-osrs-hero.png
+image: ./images/kmitl-osrs-hero.png
 period: Mar - Apr 2018
 tags:
 - Website

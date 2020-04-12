@@ -2,7 +2,7 @@
 title: ACSP 3122 Farewell
 date: 2015-12-01
 slug: acsp-3122
-thumbnail: ./images/acsp-3122-hero.jpg
+image: ./images/acsp-3122-hero.jpg
 period: Dec 2015 - Feb 2016
 tags:
 - Video
