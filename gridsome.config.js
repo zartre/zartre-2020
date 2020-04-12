@@ -7,5 +7,13 @@
 module.exports = {
   siteName: 'Nathan Yiangsupapaanontr',
   siteUrl: 'https://zartre.com',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/work/**/*.md',
+        typeName: 'Work',
+      }
+    },
+  ]
 }

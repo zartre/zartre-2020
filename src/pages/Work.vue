@@ -2,14 +2,14 @@
   <Layout title="Work">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="i in 5">
+        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.allWork.edges">
           <article>
-            <g-link to="/">
+            <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <img src="https://via.placeholder.com/400x225" alt="Thumbnail">
+                <g-image :src="work.node.thumbnail" alt="Thumbnail" />
               </figure>
-              <h2>Work name here</h2>
-              <p>Mar - Apr 2018</p>
+              <h2>{{ work.node.title }}</h2>
+              <p>{{ work.node.period }}</p>
             </g-link>
           </article>
         </div>
@@ -25,6 +25,18 @@ export default {
   }
 }
 </script>
+
+<page-query>
+query {
+  allWork {
+    edges {
+      node {
+        title slug thumbnail period
+      }
+    }
+  }
+}
+</page-query>
 
 <style lang="sass" scoped>
 article
