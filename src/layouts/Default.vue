@@ -2,13 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="container">
-        <nav>
-          <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
-          <ul>
-            <li><g-link to="/">home</g-link></li>
-            <li><g-link to="/work">work</g-link></li>
-          </ul>
-        </nav>
+        <MainNav/>
         <h1 class="nathan">Nathan's</h1>
         <h1 class="title">{{ title }}</h1>
       </div>
@@ -29,7 +23,9 @@ query {
 </static-query>
 
 <script>
+import MainNav from '~/components/MainNav'
 export default {
+  components: {MainNav},
   props: {
     title: String
   }
@@ -37,20 +33,10 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import '~/styles/_vars'
-
-nav
-  margin-bottom: 0
-  ul
-    flex: 1
-    text-align: right
-    font-family: $font-title
-    font-size: 1.5em
-    margin: 2em 0 0
-    a
-      color: var(--color-text)
-    @media screen and (max-width: 699px)
-      font-size: 1em
+header
+  margin-bottom: 70px
+  @media screen and (max-width: 699px)
+    margin-bottom: 40px
 
 .nathan
   text-align: left
@@ -61,7 +47,7 @@ nav
   text-align: left
   font-size: 4em
   line-height: 1em
-  margin: 0 0 60px
+  margin: 0
 
 footer
   height: 100px
