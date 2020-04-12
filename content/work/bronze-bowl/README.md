@@ -1,10 +1,12 @@
 ---
 title: "Bronze Bowl Documentary"
-description: "The first post written in Markdown"
 date: 2019-04-21
 slug: bronze-bowl
 thumbnail: https://via.placeholder.com/400x225
 period: Mar - Apr 2019
+tags:
+- Video
+- High school project
 ---
 
 This is the first post, it is written in Markdown.

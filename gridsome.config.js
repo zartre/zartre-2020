@@ -13,6 +13,12 @@ module.exports = {
       options: {
         path: 'content/work/**/*.md',
         typeName: 'Work',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
       }
     },
   ],

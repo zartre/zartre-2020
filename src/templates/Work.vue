@@ -1,5 +1,5 @@
 <template>
-  <WorkLayout :title="$page.work.title" :period="$page.work.period">
+  <WorkLayout :title="$page.work.title" :period="$page.work.period" :tags="$page.work.tags">
     <div class="container">
       <article class="work-content" v-html="$page.work.content" />
     </div>
@@ -8,14 +8,19 @@
 
 <script>
 export default {
-  name: "Work"
+  name: "Work",
+  metaInfo() {
+      return {
+          title: this.$page.work.title
+      }
+  }
 }
 </script>
 
 <page-query>
 query Work ($id: ID!) {
   work: work(id: $id) {
-    title period content
+    title period content tags { title }
   }
 }
 </page-query>

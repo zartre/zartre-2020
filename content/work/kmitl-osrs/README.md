@@ -1,10 +1,12 @@
 ---
 title: "KMITL OSRS"
-description: "The first post written in Markdown"
 date: 2019-04-20
 slug: kmitl-osrs
 thumbnail: https://via.placeholder.com/400x225
 period: Mar - Apr 2018
+tags:
+- Website
+- University project
 ---
 
 This is the first post, it is written in Markdown.

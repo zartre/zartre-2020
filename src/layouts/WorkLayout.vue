@@ -4,7 +4,7 @@
       <div class="container">
         <MainNav/>
         <h1 class="title">{{ title }}</h1>
-        <p class="period">{{ period }}</p>
+        <p class="period">{{ period }} | {{ tagsComma }}</p>
       </div>
     </header>
     <main>
@@ -20,7 +20,13 @@ export default {
   components: {MainNav},
   props: {
       title: String,
-      period: String
+      period: String,
+      tags: Array
+  },
+  computed: {
+      tagsComma() {
+          return this.tags.map(t => t.title).join(", ")
+      }
   }
 }
 </script>
@@ -34,7 +40,10 @@ header
 .title
   font-size: 3.5em
   line-height: 1em
+  word-wrap: break-word
   margin: 0
+  @media screen and (max-width: 767px)
+    font-size: 2.5em
 
 footer
   height: 100px
