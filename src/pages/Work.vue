@@ -6,7 +6,7 @@
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.thumbnail" alt="Thumbnail" />
+                <g-image :src="work.node.thumbnail" alt="Thumbnail" width="700" height="394" />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
