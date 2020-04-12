@@ -15,5 +15,11 @@ module.exports = {
         typeName: 'Work',
       }
     },
-  ]
-}
+  ],
+  templates: {
+    Work: [{
+      name: 'work',
+      path: '/work/:slug'
+    }]
+  }
+};

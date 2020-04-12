@@ -3,8 +3,8 @@
     <header class="header">
       <div class="container">
         <MainNav/>
-        <h1 class="nathan">Nathan's</h1>
         <h1 class="title">{{ title }}</h1>
+        <p class="period">{{ period }}</p>
       </div>
     </header>
     <main>
@@ -19,7 +19,8 @@ import MainNav from '~/components/MainNav'
 export default {
   components: {MainNav},
   props: {
-    title: String
+      title: String,
+      period: String
   }
 }
 </script>
@@ -30,14 +31,8 @@ header
   @media screen and (max-width: 699px)
     margin-bottom: 40px
 
-.nathan
-  text-align: left
-  font-size: 2em
-  margin: 0
-
 .title
-  text-align: left
-  font-size: 4em
+  font-size: 3.5em
   line-height: 1em
   margin: 0
 

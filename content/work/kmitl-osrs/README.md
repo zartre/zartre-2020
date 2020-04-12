@@ -9,6 +9,8 @@ period: Mar - Apr 2018
 
 This is the first post, it is written in Markdown.
 
+![Photo](https://zartre.com/img/work/hero/kmitl-osrs-hero-1920.jpg)
+
 # Here's some big text
 
 - and some lists 
