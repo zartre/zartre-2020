@@ -46,4 +46,5 @@ article.work-content
       margin-left: 0
   iframe
     width: 100%
+    margin: 1em 0
 </style>
