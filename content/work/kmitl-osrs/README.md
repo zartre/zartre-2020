@@ -2,7 +2,7 @@
 title: "KMITL OSRS"
 date: 2018-03-01
 slug: kmitl-osrs
-thumbnail: ./images/kmitl-osrs-hero.png
+image: ./images/kmitl-osrs-hero.png
 period: Mar - Apr 2018
 tags:
 - Website
@@ -30,6 +30,10 @@ The main business logic server is powered by Scala, while the view part is manag
 ![](./images/requests.png)
 
 ![](./images/approval.png)
+
+<div class="buttons">
+<a href="https://blog.zartre.com/kmitl-osrs-57b414fc1a0d" class="button">Read the story</a>
+</div>
 
 **Roles:**
 - Front-end Website Designer

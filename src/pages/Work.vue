@@ -6,7 +6,7 @@
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.thumbnail" alt="Thumbnail" width="700" height="394" />
+                <g-image :src="work.node.image" alt="Thumbnail" width="700" height="394" />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
@@ -31,7 +31,10 @@ query {
   allWork {
     edges {
       node {
-        title slug thumbnail period
+        title
+        slug
+        image (width: 700, height: 394, quality: 90)
+        period
       }
     }
   }

@@ -35,6 +35,8 @@ article.work-content
   max-width: $content-width
   margin-right: auto
   margin-left: auto
+  p
+    text-align: justify
   p > img
     display: block
     width: $image-scale-percent

@@ -22,7 +22,7 @@ nav
   ul
     text-align: right
     font-family: $font-title
-    font-size: 1.5em
+    font-size: 24px
     margin: 2em 0 0
     padding: 0
     list-style: none

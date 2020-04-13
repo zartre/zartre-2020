@@ -2,7 +2,7 @@
 title: ACSP Parent Meeting 1/2016
 date: 2016-06-01
 slug: acsp-parent-2016
-thumbnail: ./images/acsp-parent-2016-hero.png
+image: ./images/acsp-parent-2016-hero.png
 period: Jun 2016
 tags:
 - Video
