@@ -2,12 +2,14 @@
 title: "Bronze Bowl Documentary"
 date: 2015-08-01
 slug: bronze-bowl
-image: ./images/Bronze-Bowl-1.jpg
+image: ./images/bronze-bowl-hero.jpg
 period: Aug - Nov 2015
 tags:
 - Video
 - High school project
 ---
+
+![](./images/bronze-bowl-hero.jpg)
 
 _Scroll down for English_
 
@@ -62,8 +64,13 @@ Roles:
 - Supporting Cameraman
 
 ![](./images/Bronze-Bowl-2.jpg)
+
 ![](./images/Bronze-Bowl-3.jpg)
+
 ![](./images/Bronze-Bowl-4.jpg)
+
 ![](./images/Bronze-Bowl-5.jpg)
+
 ![](./images/Bronze-Bowl-6.jpg)
+
 ![](./images/Bronze-Bowl-7.jpg)
