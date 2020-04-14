@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/zartre
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zartre.com
+  * I am zartre (https://keybase.io/zartre) on keybase.
+  * I have a public key with fingerprint 4CBA F50F 4519 9452 DBAF  BEE2 F2F8 138D 34D8 95E3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010166d163ebf7ea3b6e5c664114849dbd95e20dede550f9048d36751ebe085782130a",
+      "fingerprint": "4cbaf50f45199452dbafbee2f2f8138d34d895e3",
+      "host": "keybase.io",
+      "key_id": "f2f8138d34d895e3",
+      "kid": "010166d163ebf7ea3b6e5c664114849dbd95e20dede550f9048d36751ebe085782130a",
+      "uid": "484fba5018ed755529cc9a4a285b4619",
+      "username": "zartre"
+    },
+    "merkle_root": {
+      "ctime": 1586830717,
+      "hash_meta": "2430d6e5fc39a7a8369156d79b9d963749d9afeaa5f32f0fe8f791ace3f3cdc2",
+      "seqno": 15910752
+    },
+    "revoke": {
+      "sig_ids": [
+        "d11d4fb3b0ca4491b58dea819d62f515c5928e131d1b67d10a16635c129bb7840f"
+      ]
+    },
+    "service": {
+      "hostname": "zartre.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1586830720,
+  "expire_in": 157680000,
+  "prev": "86abc23b259c39d7f531b2ac84cdc49b6694f06f41987b44e9a2a43777c01667",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK3AnicrVNbaB1FGD6pNm2PplFRLIjSbpX6EOPOfebg5eiDVYgKErxgm9OZnZlk
+PcnucXdPTFOjgsFSbKOQFLw0jQ9iYmhQ8PKglobSolAoLVJpa1uNiQ8peSjipbF9
+cDYoovjovAzz833f//3fzBxquqJQbHjs4/RyuGH12w1HDqb1Qsfum1/a5qlYb/VK
+27yqWdpMtzZpVqmG2it5PvABpRpQZJRlRiJFDQkoxQBgjoVWWhADfW20IcS3wsdc
+I8oIMMr4nDAOAfKl1+LZMOo0SS0Jo8zJ4kBJ6/CYACEwgdodlTHQQssBchJYcyeM
+HLErTnOGM6dkalrD2NXcobJk7z/w/7Pv+pKc41gliQ+40YwQAkUQCIkl5ERhCkQO
+TE0SyR7j0P0yyRLjDbR4PSapdptKEsdZHm2QhTkAEE458hlgbjyZdlV6TCYdD2Lk
+a+fTBkhIJjmiAhCqmVBCC4qY8y2kNVISi6D1reGWCSADgywKdACdi9Q8G8V5BwF8
+RqCzkJjeuGry7mnY6VJLvdLTngZAu4mQ8gOJsQCKcG0kB0JTaAkgARGQG4CABooy
+DXzp0kQkAFAoxTj2rbd5IO+W9IbBknh+Tf8YvzWIe5yhWhJncRB3u3pXltXSUh5L
+trWWA58zqvKnREWFkXZPxDF6TZKGceSGcMh/JQb9Fs/01cLEVMIcQRjlvlt5H9Pr
+JDmVKoBIQSJciJpZgoCCMuDYBYSFolRg61OLgeBMYWyEhBIjxliQPxj2d4QQOp+y
+02m63CKZ1fMbPTi96cpCQ7HQuHxZ/ncKxVXX/PWjplavuNzULJv3ivHZiTVP3rnn
+o9ue3x4Vz10au2FoaG7wnh8unL5r+3DbM2vH66N3HC8PXz8+eWB9/dfflj248HNV
+9BfvO//J1V/t2zhaPVH9YPqXBi/bsLGzb8eZtoGdm75cPNYaPXEUvdd+eHDsgZPz
+F2/p2z3waPPwzuVr545Vzzw8NH/tIy/vemfm1Yt8/4X5hSPRp/MLI40rrzpx/OjX
+3vcjhw+82/jjpcF13862vzVz6o0XSlMn2dnF9VsKN/7+5pqJLTPfFc+fbYTn9o1P
+HPp8rjJbXlX+cHrP4yv673993YsdK+/95rMxr1wu7H+K/DQ1WW1vm/xianTH8E27
+Fk+buGPk7sbrmm7fbF55/6HXTt36B+c2gkY=
+=f4ru
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zartre
+
+==================================================================
