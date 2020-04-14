@@ -73,4 +73,4 @@ Roles:
 
 ![](./images/Bronze-Bowl-6.jpg)
 
-![](./images/Bronze-Bowl-.jpg)
+![](./images/Bronze-Bowl-7.jpg)
