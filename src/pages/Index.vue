@@ -6,6 +6,10 @@
       <line x1="1" x2="1" y2="80" stroke="white"/>
     </svg>
     <h2 class="full-name">Nathan<br>Yiangsupapaanontr</h2>
+    <div class="email">
+      <g-image src="~/images/email-black.svg" alt="Email" id="email-black" />
+      <g-image src="~/images/email-light.svg" alt="Email" id="email-light" />
+    </div>
     <ul class="main-links">
       <li v-for="link in mainLinks" :key="link.name">
         <g-link :to="link.url">{{ link.name }}</g-link>
@@ -78,7 +82,20 @@ export default {
 .full-name
   text-align: center
   font-size: 1.5em
-  margin: 50px 0
+  margin: 50px 0 16px
+
+.email
+  margin-bottom: 50px
+  img
+    display: block
+    margin: 0 auto
+  #email-light
+    display: none
+    @media screen and (prefers-color-scheme: dark)
+      display: block
+  #email-black
+    @media screen and (prefers-color-scheme: dark)
+      display: none
 
 .main-links
   font-size: 2.5em
