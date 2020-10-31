@@ -21,6 +21,12 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-B064NPS19C'
+      }
+    }
   ],
   templates: {
     Work: [{
