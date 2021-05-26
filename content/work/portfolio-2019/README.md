@@ -2,7 +2,7 @@
 title: My Portfolio (2019)
 date: 2019-04-09
 slug: portfolio-2019
-image: ./images/Portfolio-2019.png
+image: ./images/portfolio-2019.png
 period: Apr 2019
 tags:
 - Portfolio
