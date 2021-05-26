@@ -2,11 +2,11 @@
   <Layout title="Work">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.allWork.edges">
+        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.allWork.edges" :key="work.node.slug">
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.image" alt="Thumbnail" width="700" height="394" />
+                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
@@ -22,7 +22,10 @@
 export default {
   metaInfo: {
     title: 'Work'
-  }
+  },
+  data: () => ({
+    defaultHero: 'https://via.placeholder.com/700x394?text=Placeholder',
+  })
 }
 </script>
 
