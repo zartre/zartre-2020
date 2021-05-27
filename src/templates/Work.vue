@@ -46,6 +46,10 @@ article.work-content
     @media screen and (max-width: $content-width * $image-scale)
       width: 100%
       margin-left: 0
+  blockquote
+    margin: 1em 2em
+    p
+      font-size: 1.3em
   iframe
     width: 100%
     margin: 1em 0
