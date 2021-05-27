@@ -8,6 +8,8 @@ tags:
 - Portfolio
 ---
 
+![Portfolio 2019](./images/portfolio-2019.png)
+
 My portfolio, updated for year 2019.
 In this portfolio I focus on class projects throughout my Bachelor's degree courses,
 with some notable mentions.
