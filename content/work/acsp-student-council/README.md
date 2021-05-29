@@ -2,12 +2,14 @@
 title: "ACSP Student Council"
 date: 2015-03-01
 slug: acsp-student-council
-image: null
+image: ./images/acsp-sc-hero.jpg
 period: Mar 2015 - Feb 2016
 tags:
 - Video
 - High school project
 ---
+
+![ACSP Student Council](./images/acsp-sc-hero.jpg)
 
 During my last year in secondary school,
 I joined my friend in his new student council party as a public communications,
@@ -20,6 +22,8 @@ We operated the whole term transparently:
 everything we did was published online and communicated.
 We completed almost every, if not all, policies we had proposed.
 All activities gained high engagement.
+
+![ACSP Student Council](./images/acsp-sc-1.png)
 
 I had proposed many ideas that were actually put in use.
 On the first days of the party,
@@ -40,3 +44,9 @@ doing PR stuff and giving advice on our operation.
 - Public communications
 - IT Assistant
 - Graphic designer
+
+![ACSP Student Council](./images/acsp-sc-2.jpg)
+
+![ACSP Student Council](./images/acsp-sc-3.jpg)
+
+![ACSP Student Council](./images/acsp-sc-4.jpg)
