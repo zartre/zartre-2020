@@ -1,11 +1,18 @@
 <template>
   <div class="steep">
     <h1 class="title">Matcha-powered Software Developer</h1>
-    <svg id="divider" width="1" height="80" viewBox="0 0 1 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <line x1="0.5" x2="0.5" y2="80" stroke="black"/>
-      <line x1="1" x2="1" y2="80" stroke="white"/>
+    <svg
+      id="divider"
+      width="1"
+      height="80"
+      viewBox="0 0 1 80"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line x1="0.5" x2="0.5" y2="80" stroke="black" />
+      <line x1="1" x2="1" y2="80" stroke="white" />
     </svg>
-    <h2 class="full-name">Nathan<br>Yiangsupapaanontr</h2>
+    <h2 class="full-name">Nathan<br />Yiangsupapaanontr</h2>
     <div class="email">
       <g-image src="~/images/email-black.svg" alt="Email" id="email-black" />
       <g-image src="~/images/email-light.svg" alt="Email" id="email-light" />
@@ -22,14 +29,21 @@
     </ul>
     <div class="bio">
       <p>
-        Nathan loves to solve problems with code.
-        On some occasions he would go out and log the world with photographs.
-        You could also come across him by his writing on
+        Nathan loves to solve problems with code. On some occasions he would go
+        out and log the world with photographs. You could also come across him
+        by his writing on
         <a href="https://thaiappupdate.com" target="_blank">Thai App Update</a>
         because he loves being a journalist so much.
       </p>
-      <svg id="circle" width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="80" cy="80" r="80" fill="#71D4FF"/>
+      <svg
+        id="circle"
+        width="160"
+        height="160"
+        viewBox="0 0 160 160"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="80" cy="80" r="80" fill="#71D4FF" />
       </svg>
     </div>
   </div>
@@ -38,25 +52,30 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Home'
+    title: "Home",
   },
-  data () {
+  data() {
     return {
       mainLinks: [
-        {name: 'Blog', url: 'https://blog.zartre.com'},
-        {name: 'Work', url: '/work', internal: true},
-        {name: 'Github', url: 'https://github.com/DobaKung'},
-        {name: 'LinkedIn', url: 'https://linkedin.com/in/zartre'}
+        { name: "Blog", url: "https://blog.zartre.com" },
+        { name: "Work", url: "/work", internal: true },
+        { name: "Github", url: "https://github.com/DobaKung" },
+        { name: "GitLab", url: "https://gitlab.com/zartre" },
+        { name: "LinkedIn", url: "https://linkedin.com/in/zartre" },
       ],
       socialLinks: [
-        {name: '500px', url: 'https://500px.com/zartre'},
-        {name: 'Instagram', url: 'https://instagram.com/zartre'},
-        {name: 'Twitter', url: 'https://twitter.com/zartre'},
-        {name: 'YouTube', url: 'https://youtube.com/user/zartrey'}
-      ]
-    }
-  }
-}
+        { name: "500px", url: "https://500px.com/zartre" },
+        { name: "Instagram", url: "https://instagram.com/zartre" },
+        { name: "Twitter", url: "https://twitter.com/zartre" },
+        { name: "YouTube", url: "https://youtube.com/user/zartrey" },
+        {
+          name: "Stack Overflow",
+          url: "https://stackoverflow.com/users/2147513/nathan",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped lang="sass">

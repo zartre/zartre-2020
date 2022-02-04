@@ -10,12 +10,12 @@
     "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/source-filesystem": "^0.6.2",
     "flexboxgrid": "^6.3.1",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.23",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@gridsome/transformer-remark": "^0.5.0",
-    "node-sass": "^4.13.1",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "sass": "1.49.7",
     "sass-loader": "^7.3.1"
   }
 }
