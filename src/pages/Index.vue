@@ -32,7 +32,7 @@
         Nathan loves to solve problems with code. On some occasions he would go
         out and log the world with photographs. You could also come across him
         by his writing on
-        <a href="https://thaiappupdate.com" target="_blank">Thai App Update</a>
+        <a href="https://thehaptic.co" target="_blank">The Haptic</a>
         because he loves being a journalist so much.
       </p>
       <svg
