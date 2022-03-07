@@ -59,7 +59,7 @@ export default {
       mainLinks: [
         { name: "Blog", url: "https://blog.zartre.com" },
         { name: "Work", url: "/work", internal: true },
-        { name: "Github", url: "https://github.com/DobaKung" },
+        { name: "Github", url: "https://github.com/nzartre" },
         { name: "GitLab", url: "https://gitlab.com/zartre" },
         { name: "LinkedIn", url: "https://linkedin.com/in/zartre" },
       ],
