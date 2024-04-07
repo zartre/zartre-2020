@@ -31,7 +31,7 @@ export default {
 
 <page-query>
 query {
-  allWork {
+  allWork(filter: {hidden: { ne: true }}) {
     edges {
       node {
         title

@@ -7,6 +7,7 @@ period: Dec 2015 - Feb 2016
 tags:
 - Video
 - High school project
+hidden: true
 ---
 
 ![](./images/acsp-3122-1.jpg)
