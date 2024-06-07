@@ -1,6 +1,6 @@
 <template>
   <div class="steep">
-    <h1 class="title">Matcha-powered Software Developer</h1>
+    <h1 class="title">Matcha-powered Software Engineer</h1>
     <svg
       id="divider"
       width="1"
@@ -12,7 +12,7 @@
       <line x1="0.5" x2="0.5" y2="80" stroke="black" />
       <line x1="1" x2="1" y2="80" stroke="white" />
     </svg>
-    <h2 class="full-name">Nathan<br />Yiangsupapaanontr</h2>
+    <h2 class="full-name">Nathan (Zartre)<br />Yiangsuppanontr</h2>
     <div class="email">
       <g-image src="~/images/email-black.svg" alt="Email" id="email-black" />
       <g-image src="~/images/email-light.svg" alt="Email" id="email-light" />
