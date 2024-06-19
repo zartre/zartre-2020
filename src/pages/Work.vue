@@ -2,7 +2,42 @@
   <Layout title="Work">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.allWork.edges" :key="work.node.slug">
+        <div class="col-xs-12">
+          <h1>Compilations</h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.compilations.edges" :key="work.node.slug">
+          <article>
+            <g-link :to="`/work/${work.node.slug}`">
+              <figure>
+                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
+              </figure>
+              <h2>{{ work.node.title }}</h2>
+              <p>{{ work.node.period }}</p>
+            </g-link>
+          </article>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Projects</h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.projects.edges" :key="work.node.slug">
+          <article>
+            <g-link :to="`/work/${work.node.slug}`">
+              <figure>
+                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
+              </figure>
+              <h2>{{ work.node.title }}</h2>
+              <p>{{ work.node.period }}</p>
+            </g-link>
+          </article>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>School Projects</h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.schoolProjects.edges" :key="work.node.slug">
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
@@ -31,7 +66,27 @@ export default {
 
 <page-query>
 query {
-  allWork(filter: {hidden: { ne: true }}) {
+  projects: allWork(filter: {hidden: { ne: true }, tags: { containsNone: ["Portfolio", "High school project", "University project"] }}) {
+    edges {
+      node {
+        title
+        slug
+        image (width: 700, height: 394, quality: 90)
+        period
+      }
+    }
+  }
+  schoolProjects: allWork(filter: {hidden: { ne: true }, tags: { containsAny: ["High school project", "University project"] }}) {
+    edges {
+      node {
+        title
+        slug
+        image (width: 700, height: 394, quality: 90)
+        period
+      }
+    }
+  }
+  compilations: allWork(filter: {tags: { contains: ["Portfolio"] }}) {
     edges {
       node {
         title
