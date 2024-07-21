@@ -72,6 +72,7 @@ export default {
           name: "Stack Overflow",
           url: "https://stackoverflow.com/users/2147513/nathan",
         },
+        { name: "Mastodon", url: "https://mastodon.social/@zartre" }
       ],
     };
   },
