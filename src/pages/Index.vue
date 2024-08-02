@@ -27,6 +27,17 @@
         <a :href="link.url">{{ link.name }}</a>
       </li>
     </ul>
+    <div class="webring">
+      Part of
+      <a href="https://webring.wonderful.software#zartre.com" title="วงแหวนเว็บ">
+        <img
+          alt="วงแหวนเว็บ"
+          width="32"
+          height="32"
+          src="https://webring.wonderful.software/webring.black.svg"
+        />
+      </a>
+    </div>
     <div class="bio">
       <p>
         Nathan loves to solve problems with code. On some occasions he would go
@@ -135,9 +146,21 @@ export default {
     margin: 0 0.8em
     line-height: 1.5em
 
+.webring
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+  column-gap: 0.5em
+  a, img
+    display: block
+  img
+    @media screen and (prefers-color-scheme: dark)
+      filter: invert(1)
+
 .bio
   display: flex
-  margin: 120px 0 170px
+  margin: 100px 0 170px
   flex-direction: column
   position: relative
   justify-content: center
