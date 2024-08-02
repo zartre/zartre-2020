@@ -60,7 +60,6 @@ export default {
         { name: "Blog", url: "https://blog.zartre.com" },
         { name: "Work", url: "/work", internal: true },
         { name: "Github", url: "https://github.com/DobaKung" },
-        { name: "GitLab", url: "https://gitlab.com/zartre" },
         { name: "LinkedIn", url: "https://linkedin.com/in/zartre" },
       ],
       socialLinks: [
