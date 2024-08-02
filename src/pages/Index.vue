@@ -76,7 +76,6 @@ export default {
       socialLinks: [
         { name: "500px", url: "https://500px.com/zartre" },
         { name: "Instagram", url: "https://instagram.com/zartre" },
-        { name: "Twitter", url: "https://twitter.com/zartre" },
         { name: "YouTube", url: "https://youtube.com/user/zartrey" },
         {
           name: "Stack Overflow",
