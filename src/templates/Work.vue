@@ -1,5 +1,9 @@
 <template>
-  <WorkLayout :title="$page.work.title" :period="$page.work.period" :tags="$page.work.tags">
+  <WorkLayout
+    :title="$page.work.title"
+    :period="$page.work.period"
+    :tags="$page.work.tags"
+  >
     <div class="container">
       <article class="work-content" v-html="$page.work.content" />
     </div>
@@ -10,11 +14,21 @@
 export default {
   name: "Work",
   metaInfo() {
-      return {
-          title: this.$page.work.title
-      }
+    return {
+      title: this.$page.work.title,
+      meta: [
+        {
+          name: "description",
+          content:
+            this.$page.work.content
+              .replace(/<[^>]+>/g, "")
+              .slice(0, 100)
+              .trim() + "..."
+        }
+      ]
+    };
   }
-}
+};
 </script>
 
 <page-query>

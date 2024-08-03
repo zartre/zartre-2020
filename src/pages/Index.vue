@@ -29,7 +29,10 @@
     </ul>
     <div class="webring">
       Part of
-      <a href="https://webring.wonderful.software#zartre.com" title="วงแหวนเว็บ">
+      <a
+        href="https://webring.wonderful.software#zartre.com"
+        title="วงแหวนเว็บ"
+      >
         <img
           alt="วงแหวนเว็บ"
           width="32"
@@ -64,6 +67,12 @@
 export default {
   metaInfo: {
     title: "Home",
+    meta: [
+      {
+        name: "description",
+        content: "Software engineer with love for photography and writing."
+      }
+    ]
   },
   data() {
     return {
@@ -71,7 +80,7 @@ export default {
         { name: "Blog", url: "https://blog.zartre.com" },
         { name: "Work", url: "/work", internal: true },
         { name: "Github", url: "https://github.com/DobaKung" },
-        { name: "LinkedIn", url: "https://linkedin.com/in/zartre" },
+        { name: "LinkedIn", url: "https://linkedin.com/in/zartre" }
       ],
       socialLinks: [
         { name: "500px", url: "https://500px.com/zartre" },
@@ -79,12 +88,12 @@ export default {
         { name: "YouTube", url: "https://youtube.com/user/zartrey" },
         {
           name: "Stack Overflow",
-          url: "https://stackoverflow.com/users/2147513/nathan",
+          url: "https://stackoverflow.com/users/2147513/nathan"
         },
         { name: "Mastodon", url: "https://mastodon.social/@zartre" }
-      ],
+      ]
     };
-  },
+  }
 };
 </script>
 

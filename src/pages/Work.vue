@@ -5,11 +5,20 @@
         <div class="col-xs-12">
           <h1>Compilations</h1>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.compilations.edges" :key="work.node.slug">
+        <div
+          class="col-xs-12 col-sm-6 col-md-4"
+          v-for="work in $page.compilations.edges"
+          :key="work.node.slug"
+        >
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
+                <g-image
+                  :src="work.node.image || defaultHero"
+                  alt="Thumbnail"
+                  width="700"
+                  height="394"
+                />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
@@ -21,11 +30,20 @@
         <div class="col-xs-12">
           <h1>Projects</h1>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.projects.edges" :key="work.node.slug">
+        <div
+          class="col-xs-12 col-sm-6 col-md-4"
+          v-for="work in $page.projects.edges"
+          :key="work.node.slug"
+        >
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
+                <g-image
+                  :src="work.node.image || defaultHero"
+                  alt="Thumbnail"
+                  width="700"
+                  height="394"
+                />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
@@ -37,11 +55,20 @@
         <div class="col-xs-12">
           <h1>School Projects</h1>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" v-for="work in $page.schoolProjects.edges" :key="work.node.slug">
+        <div
+          class="col-xs-12 col-sm-6 col-md-4"
+          v-for="work in $page.schoolProjects.edges"
+          :key="work.node.slug"
+        >
           <article>
             <g-link :to="`/work/${work.node.slug}`">
               <figure>
-                <g-image :src="work.node.image || defaultHero" alt="Thumbnail" width="700" height="394" />
+                <g-image
+                  :src="work.node.image || defaultHero"
+                  alt="Thumbnail"
+                  width="700"
+                  height="394"
+                />
               </figure>
               <h2>{{ work.node.title }}</h2>
               <p>{{ work.node.period }}</p>
@@ -56,12 +83,18 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Work'
+    title: "Work",
+    meta: [
+      {
+        name: "description",
+        content: "Projects by Nathan"
+      }
+    ]
   },
   data: () => ({
-    defaultHero: 'https://via.placeholder.com/700x394?text=Placeholder',
+    defaultHero: "https://via.placeholder.com/700x394?text=Placeholder"
   })
-}
+};
 </script>
 
 <page-query>
